@@ -12,8 +12,7 @@
        }
        $(".section").last().show();
      } else {
-       $(".section:nth-child(4)").show();
-       $(".section").last().show();
+       window.location.replace("https://www.thesportssurveys.com");
    }
   }, "jsonp");
 </script>
